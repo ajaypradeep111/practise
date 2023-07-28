@@ -1,0 +1,23 @@
+body{
+    padding: 200px;
+    background-color: black;
+}
+.parent{
+    position: relative;
+    background-color:#D9DD6B;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    gap:5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+.child{
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+    
+}
